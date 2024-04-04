@@ -1,0 +1,52 @@
+/* primary-color: 2f;
+secondary-color: black; */
+
+html{
+    font-family: Georgia, sans-serif;
+}
+
+* {
+    color: black;
+}
+
+h1 {
+    color: purple;
+    margin-bottom: 0.25em;
+}
+
+h2 {
+    color: black;
+    font-size: 1em;
+    margin: 0;
+    margin-bottom: 1em;
+}
+
+a {
+    color: rgb(51, 80, 153);
+}
+
+.contacts {
+    margin-bottom: 2em;
+}
+
+.contact{
+    display: flex;
+
+    &__type {
+        min-width: 90px ;
+    }
+}
+
+
+.experience {
+    display: flex;
+    margin-bottom: 2em;
+
+    &__date {
+        min-width: 185px;
+        margin-bottom: 1 em;
+    }
+    &__name {
+        font-weight: bold;
+    }
+}
