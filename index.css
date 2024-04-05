@@ -1,7 +1,7 @@
 /* primary-color: 2f;
 secondary-color: black; */
 
-html{
+html {
     font-family: Georgia, sans-serif;
 }
 
@@ -9,7 +9,21 @@ html{
     color: black;
 }
 
-h1 {
+.card-body {
+    border: 1pc solid blue;
+    width: 300px;
+}
+
+.img-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-body p, .card-body h1 {
+    margin: 8px;
+}
+
+/* h1 {
     color: purple;
     margin-bottom: 0.25em;
 }
@@ -22,7 +36,7 @@ h2 {
 }
 
 a {
-    color: rgb(51, 80, 153);
+    color: rgb(63, 153, 51);
 }
 
 .contacts {
@@ -32,7 +46,7 @@ a {
 .contact{
     display: flex;
 
-    &__type {
+.contact_type {
         min-width: 90px ;
     }
 }
@@ -41,12 +55,12 @@ a {
 .experience {
     display: flex;
     margin-bottom: 2em;
+}
 
-    &__date {
+    /* &__date {
         min-width: 185px;
         margin-bottom: 1 em;
     }
     &__name {
         font-weight: bold;
-    }
-}
+    } */
